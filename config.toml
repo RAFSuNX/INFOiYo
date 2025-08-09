@@ -16,11 +16,11 @@ rssLimit = 10
 
 [params]
   title = "INFOiYo"
-  author = "INFOiYo"
+  author = "RAFSuNX"
   description = "Your blog description here"
   footnote = """
-  Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
-  Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+  Powered by <a class=link href=https://github.com/RAFSuNX target=_blank rel=noopener>RAFSuNX</a> | 
+  Theme <a class=link href=https://github.com/RAFSuNX target=_blank rel=noopener>TeXify3</a>
   """
   customCSS = []
   customJS = []
