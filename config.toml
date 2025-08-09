@@ -1,0 +1,25 @@
+
+baseURL = "https://infoiyo.pages.dev/"
+languageCode = "en-us"
+title = "INFOiYo"
+theme = "terminal"
+paginate = 10
+
+[params]
+  themeColor = "orange"
+  centerTheme = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[services]
+  [services.googleAnalytics]
+    id = "" # Add GA4 ID later
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[markup.goldmark.renderer]
+  unsafe = true
