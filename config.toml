@@ -2,7 +2,7 @@
 baseURL = "https://infoiyo.pages.dev/"
 languageCode = "en-us"
 title = "INFOiYo"
-theme = "terminal"
+theme = "hugo-narrow"
 paginate = 10
 
 [params]
