@@ -1,20 +1,46 @@
 baseURL = "https://infoiyo.cc/"
-languageCode = "en-us"
+languageCode = "en"
 title = "INFOiYo"
-theme = "hugo-narrow"
+theme = "hugo-texify3"
+enableGitInfo = true
+enableRobotsTXT = true
+hasCJKLanguage = false
+rssLimit = 10
 
 [pagination]
   pagerSize = 10
 
-[params]
-  description = "Your blog description here"
-  keywords = ["blog", "INFOiYo"]
-  images = ["images/og-image.jpg"]
-  colorScheme = "system" # system, light, dark
+[taxonomies]
+  tags = "tags"
+  categories = "categories"
 
-  [params.author]
-    name = "INFOiYo"
-    avatar = "images/avatar.svg"
+[params]
+  title = "INFOiYo"
+  author = "INFOiYo"
+  description = "Your blog description here"
+  footnote = """
+  Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
+  Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+  """
+  customCSS = []
+  customJS = []
+  dateFormat = "2 January 2006"
+  emphasisWithDots = true
+  toc = true
+  rootFontSize = "105%"
+  math = true
+  enableDuckDuckGoSearchBox = true
+  numberedSubtitles = true
+
+  [params.sharingbuttons]
+    facebook = true
+    twitter = true
+    email = true
+    linkedin = true
+    reddit = true
+    whatsapp = true
+    hackernews = true
+    telegram = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
