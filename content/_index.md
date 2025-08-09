@@ -1,47 +1,55 @@
 ---
 title: "Welcome to INFOiYo"
+description: "INFOiYo is your open source playground: Linux news, real world configs, problem solving guides, and workflow inspiration all in one place."
 ---
 
-```
-      _      _____  _   _  _____   ___   __   __
-     (_)    |_   _|| \ | ||_   _| / _ \  \ \ / /
-      _  ___  | |  |  \| |  | |  | | | |  \ V / 
-     | |/ _ \ | |  | . ` |  | |  | | | |   > <  
-     | |  __/_| |_ | |\  | _| |_ | |_| |  / . \ 
-     | |\___|\___/ \_| \_/ \___/  \___/  /_/ \_\
-    _/ |                                        
-   |__/         _        _        _             
-                (_)      | |      (_)            
-   ___ _ __ ___  _  ___  | |_ _ __ _  __ _ _ __  
-  / __| '_ ` _ \| |/ _ \ | __| '__| |/ _` | '_ \ 
- | (__| | | | | | |  __/ | |_| |  | | (_| | | | |
-  \___|_| |_| |_|_|\___|  \__|_|  |_|\__,_|_| |_|
-```
 
-> **INFOiYo** is not just a blog—it's a living, breathing Linux lab.  
-> Here, configs are art, setups are stories, and every post is a puzzle piece in the world of open-source creativity.
+
+> **INFOiYo** is more than a blog. It is a hands on Linux lab, a digital workshop, and a storytelling hub for open source explorers.  
+> Here, configs are art, setups are stories, and every post is a piece of the bigger open source puzzle.
 
 ---
 
-## ✨ What You'll Find Here
+## 🔍 What Awaits You Inside
 
-- **Linux News**: Stay in the loop with the freshest updates and discoveries.
-- **Configs & Setups**: Real-world dotfiles, scripts, and system tweaks—shared, explained, and celebrated.
-- **Problem Solving**: From cryptic errors to epic wins, we document the journey.
-- **Workflow Inspiration**: Tips, tricks, and tools to make your Linux life smoother.
+- **Linux News & Trends** - Fresh updates, distro releases, and technology shifts that matter.  
+- **Configs & Setups** - Dotfiles, scripts, and real world tweaks explained line by line.  
+- **Troubleshooting & Fixes** - From cryptic errors to creative solutions.  
+- **Productivity Workflows** - Tools, tricks, and automation to supercharge your Linux experience.  
+- **Inspiration Corner** - Innovative projects, quirky hacks, and the occasional happy accident.  
 
 ---
+
+### 📜 Our Philosophy
 
 > _"Tinker. Break. Fix. Share. Repeat."_  
-> — The INFOiYo Way
+> The INFOiYo Way
+
+We believe in learning by doing, sharing without gatekeeping, and celebrating curiosity.
 
 ---
 
-### 🚀 Ready to dive in?
+## 🌐 Explore the Lab
 
-Browse the [latest posts](/posts/) or use the search to find your next Linux adventure.
+- **[Browse Latest Posts](/posts/)** - Jump straight into fresh discoveries.  
+- **Search** - Find exactly what you need, whether it is a config snippet or a full deep dive.  
+- **Join Our Telegram** - Get instant updates, share your own setups, and chat with fellow Linux enthusiasts.  
 
 ---
 
 ```bash
 # Join the journey. Make, break, and share with INFOiYo!
+````
+
+**Pro Tip:** Bookmark this page. Our lab is always evolving.
+
+```
+
+---
+
+If you want, I can now **style this with Hugo Narrow shortcodes** so:
+- ASCII art appears in a **highlighted code block**.
+- CTAs look like **buttons**.
+- Sections have clean dividers that match the theme.
+
+```
