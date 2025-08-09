@@ -3,7 +3,8 @@ baseURL = "https://infoiyo.pages.dev/"
 languageCode = "en-us"
 title = "INFOiYo"
 theme = "hugo-narrow"
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   themeColor = "orange"
