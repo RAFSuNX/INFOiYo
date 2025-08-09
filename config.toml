@@ -1,21 +1,20 @@
-
 baseURL = "https://infoiyo.cc/"
 languageCode = "en-us"
 title = "INFOiYo"
 theme = "hugo-narrow"
+
 [pagination]
   pagerSize = 10
 
 [params]
-  themeColor = "orange"
-  centerTheme = true
+  description = "Your blog description here"
+  author = "INFOiYo"
+  keywords = ["blog", "INFOiYo"]
+  images = ["images/og-image.jpg"]
+  colorScheme = "system" # system, light, dark
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-[services]
-  [services.googleAnalytics]
-    id = "" # Add GA4 ID later
 
 [sitemap]
   changefreq = "daily"
