@@ -8,10 +8,13 @@ theme = "hugo-narrow"
 
 [params]
   description = "Your blog description here"
-  author = "INFOiYo"
   keywords = ["blog", "INFOiYo"]
   images = ["images/og-image.jpg"]
   colorScheme = "system" # system, light, dark
+
+  [params.author]
+    name = "INFOiYo"
+    avatar = "images/avatar.svg"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
