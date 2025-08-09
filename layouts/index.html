@@ -6,46 +6,7 @@
 {{ end }}
 
 {{ define "main" }}
-<main class="homepage-hero-bg">
-  <div class="homepage-hero enhanced-hero">
-    <div class="hero-art-bg"></div>
-    <div class="hero-content">
-      <h1 class="hero-title">
-        <span class="hero-logo" aria-label="Linux">🐧</span> INFOiYo
-      </h1>
-      <h2 class="hero-subtitle">Unleashing Linux Creativity</h2>
-      <p class="hero-description">
-        <span class="desc-highlight">INFOiYo</span> is your creative gateway to the world of Linux. Dive into a stream of hands-on guides, real-world configs, news, and problem-solving posts—crafted for tinkerers, sysadmins, and the curious.<br>
-        <span class="desc-art">Optimize. Solve. Explore. Create.</span>
-      </p>
-      <div class="hero-badges">
-        <span class="badge badge-news" title="Linux News"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="9" fill="#00adb5"/><text x="10" y="15" text-anchor="middle" font-size="12" fill="#fff" font-family="monospace">N</text></svg> News</span>
-        <span class="badge badge-config" title="Configs"><svg width="20" height="20" viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="3" fill="#393e46"/><text x="10" y="15" text-anchor="middle" font-size="12" fill="#fff" font-family="monospace">C</text></svg> Configs</span>
-        <span class="badge badge-setup" title="Setups"><svg width="20" height="20" viewBox="0 0 20 20"><polygon points="10,2 18,18 2,18" fill="#222831"/><text x="10" y="15" text-anchor="middle" font-size="12" fill="#fff" font-family="monospace">S</text></svg> Setups</span>
-        <span class="badge badge-solve" title="Problem Solving"><svg width="20" height="20" viewBox="0 0 20 20"><ellipse cx="10" cy="10" rx="9" ry="7" fill="#eeeeee"/><text x="10" y="15" text-anchor="middle" font-size="12" fill="#393e46" font-family="monospace">?</text></svg> Problem Solving</span>
-      </div>
-      <a href="/posts/" class="hero-cta prominent-cta">Explore All Posts</a>
-    </div>
-    <div class="hero-art">
-      <svg width="340" height="180" viewBox="0 0 340 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
-        <defs>
-          <linearGradient id="bg-gradient" x1="0" y1="0" x2="340" y2="180" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#00adb5" stop-opacity="0.25"/>
-            <stop offset="1" stop-color="#393e46" stop-opacity="0.15"/>
-          </linearGradient>
-        </defs>
-        <ellipse cx="170" cy="90" rx="150" ry="65" fill="url(#bg-gradient)"/>
-        <ellipse cx="170" cy="120" rx="110" ry="45" fill="#00adb5" opacity="0.10"/>
-        <g>
-          <rect x="70" y="60" width="40" height="60" rx="10" fill="#393e46"/>
-          <rect x="130" y="50" width="60" height="80" rx="14" fill="#00adb5" opacity="0.7"/>
-          <rect x="220" y="70" width="40" height="50" rx="10" fill="#393e46"/>
-          <circle cx="160" cy="90" r="12" fill="#eeeeee" opacity="0.8"/>
-          <circle cx="180" cy="90" r="12" fill="#eeeeee" opacity="0.8"/>
-        </g>
-        <text x="170" y="170" text-anchor="middle" fill="#393e46" font-size="18" font-family="monospace" opacity="0.5">#LinuxLife</text>
-      </svg>
-    </div>
-  </div>
+<main class="homepage-markdown-content">
+  {{ .Content }}
 </main>
 {{ end }}
