@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://infoiyo.cc/sitemap.xml

@@ -3,6 +3,31 @@ languageCode = "en-us"
 title = "INFOiYo"
 theme = "hugo-narrow"
 
+[params.themes]
+  [params.themes.light]
+    name = "Light"
+    order = 1
+  [params.themes.dark]
+    name = "Dark"
+    order = 2
+  [params.themes.system]
+    name = "System"
+    order = 3
+
+[params.colorSchemes]
+  [params.colorSchemes.default]
+    name = "Default"
+    order = 1
+  [params.colorSchemes.blue]
+    name = "Blue"
+    order = 2
+  [params.colorSchemes.green]
+    name = "Green"
+    order = 3
+  [params.colorSchemes.red]
+    name = "Red"
+    order = 4
+
 [pagination]
   pagerSize = 10
 
