@@ -402,8 +402,14 @@ code, pre {
 body {
   @apply bg-[rgb(var(--color-neutral-base))]
          text-[rgb(var(--color-neutral))]
-         font-[var(--font-family-base)]
          antialiased;
+  font-family: var(--font-family-mono);
+}
+
+h1, h2, h3, h4, h5, h6,
+.fluidity-page-title,
+.prose-headings {
+  font-family: var(--font-family-base);
 }
 
 :root {
