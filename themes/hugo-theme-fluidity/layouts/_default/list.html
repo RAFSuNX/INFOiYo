@@ -24,7 +24,7 @@
       {{- if $paginator -}}
         <div class="fluidity-box-1">
           {{- range $paginator.Pages }}
-{{- partial "archive-article.html" . }}
+            {{- partial "partials/archive-article.html" . }}
           {{ end }}
         </div>
       {{ end }}
