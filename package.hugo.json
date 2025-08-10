@@ -1,0 +1,24 @@
+{
+  "name": "infoiyo",
+  "version": "1.0.0",
+  "description": "This is a Hugo-powered website using the [Fluidity](https://themes.gohugo.io/themes/hugo-theme-fluidity/) theme, which provides a modern, fluid, and responsive design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAFSuNX/INFOiYo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAFSuNX/INFOiYo/issues"
+  },
+  "homepage": "https://github.com/RAFSuNX/INFOiYo#readme",
+  "devDependencies": {
+    "pagefind": "^1.3.0",
+    "tailwindcss": "^4.1.11"
+  }
+}

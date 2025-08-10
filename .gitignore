@@ -1,0 +1,27 @@
+# Hugo build output
+/public/
+resources/
+.hugo_build.lock
+
+# Node modules
+/node_modules/
+
+# npm logs
+npm-debug.log*
+
+# PageFind output
+/pagefind/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# TailwindCSS output (if any custom output dir)
+/css/*.css
+
+# Misc
+*.log

@@ -1,0 +1,40 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/RAFSuNX/INFOiYo/issues"
+  },
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@tailwindcss/cli": "hugo-theme-fluidity",
+      "@tailwindcss/typography": "hugo-theme-fluidity",
+      "pagefind": "project",
+      "prettier": "hugo-theme-fluidity",
+      "prettier-plugin-go-template": "hugo-theme-fluidity",
+      "tailwindcss": "project"
+    }
+  },
+  "dependencies": {},
+  "description": "This is a Hugo-powered website using the [Fluidity](https://themes.gohugo.io/themes/hugo-theme-fluidity/) theme, which provides a modern, fluid, and responsive design.",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0-beta.4",
+    "@tailwindcss/typography": "^0.5.15",
+    "pagefind": "^1.3.0",
+    "prettier": "^3.4.1",
+    "prettier-plugin-go-template": "^0.0.15",
+    "tailwindcss": "^4.1.11"
+  },
+  "homepage": "https://github.com/RAFSuNX/INFOiYo#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "infoiyo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAFSuNX/INFOiYo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

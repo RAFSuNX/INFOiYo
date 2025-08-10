@@ -60,17 +60,22 @@ Push your project to GitHub, GitLab, or Bitbucket.
 ### 3. Set Build Settings
 
 - **Framework preset:** Hugo
-- **Build command:** `hugo`
+- **Build command:** `hugo mod npm pack && npm update && hugo`
 - **Publish directory:** `public`
 - **Environment variables:**  
   Add `HUGO_VERSION` and set it to your desired Hugo version (e.g., `0.128.0`).
 
-### 4. (If Using Hugo Modules)
+### 4. (If Using Hugo Modules or npm)
 
 If your project uses Hugo modules, add the following environment variable:
 - `HUGO_ENVIRONMENT=production`
 
-And ensure your `go.mod` and `go.sum` files are committed.
+If your project uses npm (for TailwindCSS, PageFind, etc.), Cloudflare Pages will automatically run `npm install` before the build command if a `package.json` is present.
+
+**Troubleshooting:**  
+If you see errors about missing TailwindCSS or PageFind, make sure your `package.json` includes them as dependencies and your build command is as above.
+
+And ensure your `go.mod` and `go.sum` files are committed (if using Hugo modules).
 
 ### 5. Deploy
 
