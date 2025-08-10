@@ -1,0 +1,108 @@
+baseURL = "http://infoiyo.cc"
+languageCode = "en-us"
+title = "INFOiYo"
+theme = "hugo-theme-fluidity"
+
+enableRobotsTXT = true
+summaryLength = 100
+hasCJKLanguage = false
+enableEmoji = true
+
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+
+[menus]
+  [[menus.main]]
+    identifier = "home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    identifier = "post"
+    pageRef = "/posts"
+    weight = 20
+  [[menus.main]]
+    identifier = "tag"
+    pageRef = "/tags"
+    weight = 30
+  [[menus.main]]
+    identifier = "archive"
+    pageRef = "/archives"
+    weight = 40
+  [[menus.main]]
+    identifier = "about"
+    pageRef = "/about"
+    weight = 50
+  [[menus.main]]
+    identifier = "search"
+    pageRef = "/search"
+    weight = 60
+
+[params]
+  description = "Your site description"
+  fullContentRSS = true
+  mainSections = ["posts"]
+
+  [params.pageSize]
+    home = 5
+    list = 5
+    archives = 20
+
+  [params.listPage]
+    numCategoriesToShow = 1
+    numTagsToShow = 3
+    showSummary = false
+
+  [params.social]
+    twitter = "Your_Twitter_username"
+    github = "Your_GitHub_username"
+    linkedin = "Your_LinkedIn_username"
+    whatsapp = "Your_WhatsApp_username"
+
+    [params.social.share]
+      disabled = false
+      disableByType = ["not-exist"]
+      [[params.social.share.platforms]]
+        name = "reddit"
+      [[params.social.share.platforms]]
+        name = "x"
+      [[params.social.share.platforms]]
+        name = "facebook"
+      [[params.social.share.platforms]]
+        name = "linkedin"
+      [[params.social.share.platforms]]
+        name = "whatsapp"
+      [[params.social.share.platforms]]
+        name = "FullExample"
+        urlPattern = "https://example.com?link={permalink}&title={title}&tags={tags}&description={description}&via={via}&user={user}"
+
+    [params.social.connect]
+      platforms = ["github", "x", "whatsapp"]
+
+  [params.articleMetadata]
+    position = "header"
+
+  [params.toc]
+    disabled = false
+
+  [params.relatedPosts]
+    disabled = false
+    disableByType = ["page"]
+
+  [params.comment]
+    disabled = false
+    disableByType = ["page"]
+    thirdParty = "your comment script will be loaded here"
+
+  [params.search]
+    disabled = false
+    provider = "pagefind"
+
+  math = false
+  mathEngine = "mathJax"
+  enableEmoji = false
