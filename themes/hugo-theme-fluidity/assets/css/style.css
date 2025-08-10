@@ -10,8 +10,7 @@
 @layer base {
   :root {
     /* Font Family */
-    --font-family-base: 'Segoe UI', 'Segoe UI Web (West European)',
-      -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    --font-family-base: 'Gemunu Libre', 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
     --font-family-mono: Consolas, 'Courier New', Courier, monospace;
 
     /* Font Sizes */
@@ -182,7 +181,11 @@
     --color-neutral-800: #323130; /* Grey20 */
     --color-neutral-900: #201f1e; /* Grey10 */
     --color-neutral-950: #000000; /* Black */
-  }
+}
+
+code, pre {
+  font-family: var(--font-family-mono);
+}
 
   /* Dark theme overrides can stay as they are */
   .dark {
