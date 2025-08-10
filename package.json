@@ -2,7 +2,7 @@
   "name": "infoiyo-root",
   "version": "1.0.0",
   "private": true,
-  "devDependencies": {
+  "dependencies": {
     "tailwindcss": "^4.0.0"
   }
 }
