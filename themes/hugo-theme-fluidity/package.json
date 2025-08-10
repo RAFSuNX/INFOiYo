@@ -13,11 +13,9 @@
   "dependencies": {},
   "description": "A fluid and responsive Hugo theme.",
   "devDependencies": {
-    "@tailwindcss/cli": "^4.0.0-beta.4",
     "@tailwindcss/typography": "^0.5.15",
     "prettier": "^3.4.1",
-    "prettier-plugin-go-template": "^0.0.15",
-    "tailwindcss": "^4.0.0-beta.4"
+    "prettier-plugin-go-template": "^0.0.15"
   },
   "license": "MIT",
   "main": "index.js",
